@@ -1,5 +1,7 @@
 {
-	"name":"Ghost.386",
-	"version":"1.0",
-	"author":"http://github.com/kokonol"
+	"name":"ghost-386",
+	"version":"1.1.0",
+	"author": {
+        "email": "win8linux@gmail.com"
+    }
 }

@@ -6,7 +6,6 @@
 
 	{{!Page Meta }}
     <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,8 +31,8 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <img class="logo" src="{{asset "ico/favicon.png"}}" alt="Responsive devices"/>
-    <h1>{{@blog.title}}</h1>
-    <p class="hero-unit">{{@blog.description}}</p>
+    <h1>{{@site.title}}</h1>
+    <p class="hero-unit">{{@site.description}}</p>
   </div>
 </header>
 
@@ -51,39 +50,39 @@
   <h4 class="title"><i class="fa fa-user"></i> ABOUT ME </h4>
   <div class="content community">
     <p>
-      <a href="https://github.com/kokonol" title="https://www.kokonol.com/" target="_blank">
+      <a href="https://github.com/win8linux" title="https://www.win8linux.com/" target="_blank">
         <i class="fa fa-home"></i>
       </a>
 
-      <a href="https://github.com/kokonol" title="https://github.com/kokonol" target="_blank">
+      <a href="https://github.com/win8linux" title="https://github.com/win8linux" target="_blank">
         <i class="fa fa-github"></i>
       </a>
 
-      <a href="https://github.com/kokonol" title="https://github.com/kokonol" target="_blank">
+      <a href="https://github.com/win8linux" title="https://github.com/win8linux" target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
 
-      <a href="https://github.com/kokonol" title="https://github.com/kokonol" target="_blank">
+      <a href="https://github.com/win8linux" title="https://github.com/win8linux" target="_blank">
         <i class="fa fa-envelope"></i>
       </a>
 
-      <a href="https://github.com/kokonol" title="https://github.com/kokonol" target="_blank">
+      <a href="https://github.com/win8linux" title="https://github.com/win8linux" target="_blank">
         <i class="fa fa-wechat"></i>
       </a>
 
-      <a href="https://github.com/kokonol" title="https://github.com/kokonol" target="_blank">
+      <a href="https://github.com/win8linux" title="https://github.com/win8linux" target="_blank">
         <i class="fa fa-qq"></i>
       </a>
 
-      <a href="https://github.com/kokonol" title="https://github.com/kokonol" target="_blank">
+      <a href="https://github.com/win8linux" title="https://github.com/win8linux" target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
 
-      <a href="https://github.com/kokonol" title="https://github.com/kokonol" target="_blank">
+      <a href="https://github.com/win8linux" title="https://github.com/win8linux" target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
 
-      <a href="https://github.com/kokonol" title="https://github.com/kokonol" target="_blank">
+      <a href="https://github.com/win8linux" title="https://github.com/win8linux" target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </p>
@@ -145,9 +144,9 @@
 <div class="container-narrow">
   	<footer class="site-footer">
         <div class="col-lg-12">
-        	<a href="{{@blog.url}}/rss/"><span class="fa fa-rss"></span> Subscribe</a>
+        	<a href="{{@site.url}}/rss/"><span class="fa fa-rss"></span> Subscribe</a>
         	<div class="text-muted">
-          	<section class="copyright">All content copyright <a href="/">{{@blog.title}}</a> &copy; 2015 &bull; All rights reserved.</section>
+          	<section class="copyright">All content copyright <a href="/">{{@site.title}}</a> &copy; 2015 &bull; All rights reserved.</section>
             <section class="poweredby">Proudly published with <a href="http://ghost.org">Ghost</a></section>
           </div>
         </div>
